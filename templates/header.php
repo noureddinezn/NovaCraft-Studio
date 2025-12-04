@@ -30,7 +30,12 @@ $lienclick = $page;
                 </a>
             </li>
 
-            
+            <li>
+                <a href="/contact"
+                   class="<?= $lienclick === '/contact' ? 'text-blue-700 font-bold underline' : 'text-blue-600' ?>">
+                    Contact
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
