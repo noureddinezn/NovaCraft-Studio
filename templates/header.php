@@ -23,7 +23,14 @@ $lienclick = $page;
                 </a>
             </li>
 
-          
+            <li>
+                <a href="/about"
+                   class="<?= $lienclick === '/about' ? 'text-blue-700 font-bold underline' : 'text-blue-600' ?>">
+                    À propos
+                </a>
+            </li>
+
+            
         </ul>
     </nav>
 </header>
