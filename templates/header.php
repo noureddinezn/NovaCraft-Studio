@@ -16,7 +16,14 @@ $lienclick = $page;
                 </a>
             </li>
 
-         
+            <li>
+                <a href="/service"
+                   class="<?= $lienclick === '/service' ? 'text-blue-700 font-bold underline' : 'text-blue-600' ?>">
+                    Services
+                </a>
+            </li>
+
+          
         </ul>
     </nav>
 </header>
