@@ -2,16 +2,20 @@
 
 
 $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+
 switch ($page) {
-      $title = "NovaCraft Studio - Home";
+    case '/':
+         $title = "NovaCraft Studio - Home";
         $thispage = "views/home.php";
         break;
-        case '/contact':
+
+    case '/contact':
         $title = "NovaCraft Studio - Contact";
         $thispage = "views/contact.php";
         break;
 
-                case '/service':
+    case '/service':
         $title = "NovaCraft Studio - Services";
         $thispage = "views/services.php";
         break;
@@ -20,19 +24,62 @@ switch ($page) {
         $title = "NovaCraft Studio - About us";
         $thispage = "views/about.php";
         break;
-         default:
+
+    default:
         $title = "Not found";
         $thispage = "views/404.php";
         break;
-
-
-   
-  
 }
 
-
+include "templates/layout.php";
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
