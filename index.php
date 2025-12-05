@@ -11,6 +11,12 @@ switch ($page) {
         $thispage = "views/contact.php";
         break;
 
+                case '/service':
+        $title = "NovaCraft Studio - Services";
+        $thispage = "views/services.php";
+        break;
+
+
 
 
   
