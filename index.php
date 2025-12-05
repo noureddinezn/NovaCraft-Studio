@@ -6,6 +6,10 @@ switch ($page) {
       $title = "NovaCraft Studio - Home";
         $thispage = "views/home.php";
         break;
+        case '/contact':
+        $title = "NovaCraft Studio - Contact";
+        $thispage = "views/contact.php";
+        break;
 
 
 
