@@ -20,6 +20,11 @@ switch ($page) {
         $title = "NovaCraft Studio - About us";
         $thispage = "views/about.php";
         break;
+         default:
+        $title = "Not found";
+        $thispage = "views/404.php";
+        break;
+
 
    
   
