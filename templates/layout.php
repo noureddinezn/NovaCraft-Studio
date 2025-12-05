@@ -10,7 +10,11 @@
 <body class="bg-gray-100">
 
     <?php include __DIR__ . "/header.php"; ?>
+  <main class="py-10">
+        <?php include $thispage; ?>
+    </main>
 
+   
   
 
 </body>
